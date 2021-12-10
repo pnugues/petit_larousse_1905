@@ -6,7 +6,6 @@ Ce dépôt héberge un jeu de données qui raccorde tous les noms propres de l'�
 * Le notebook Jupyter `raccordement_larousse.ipynb`qui montre comment lire et tirer parti du fichier json avec des exemples très simples;
 * Le fichier `larousse_1905_wd_extraction.json` qui ajoute des informations extraites de wikidata aux articles. Le résultat est stocké dans des dictionnaires Python avec des clés supplémentaires;
 * Le dossier `lettres` qui contient des fichiers TSV où les noms propres sont rassemblés par lettre alphabétique. Chaque ligne d'un fichier représente un nom propre et chaque ligne a deux champs, l'identifiant wikidata et le texte de l'article du Larousse. C'est à peu près l'équivalent de `larousse_1905_wd.json` avec un autre format;
-* Le fichier pickle `larousse_wd.pkl` qui est un fichier de travail. Il n'est sans doute pas utilisable par quelqu'un d'autre que moi.
 
 Si vous utilisez ce jeu de données, merci d'en citer l'origine avec la référence suivante :
 
