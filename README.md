@@ -19,7 +19,7 @@ Si vous utilisez ce jeu de données, merci d'en citer l'origine avec les référ
 
 @inproceedings{pnugues2022,
   author = {Pierre Nugues},
-  title = {Connecting a French Dictionary from the Beginning of the 20th Century to Wikidata},
+  title = {Connecting a {F}rench Dictionary from the Beginning of the 20th Century to Wikidata},
   year = 2022,
   booktitle = {Proceedings of LREC 2022},
   address = {Marseilles}
