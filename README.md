@@ -7,7 +7,7 @@ Ce dépôt héberge un jeu de données qui raccorde tous les noms propres de l'�
 * Le fichier `larousse_1905_wd_extraction.json` qui ajoute des informations extraites de wikidata aux articles. Le résultat est stocké dans des dictionnaires Python avec des clés supplémentaires;
 * Le dossier `lettres` qui contient des fichiers TSV où les noms propres sont rassemblés par lettre alphabétique. Chaque ligne d'un fichier représente un nom propre et chaque ligne a deux champs, l'identifiant wikidata et le texte de l'article du Larousse. C'est à peu près l'équivalent de `larousse_1905_wd.json` avec un autre format;
 
-Si vous utilisez ce jeu de données, merci d'en citer l'origine avec la référence suivante :
+Si vous utilisez ce jeu de données, merci d'en citer l'origine avec les références suivantes :
 
 ```
 @misc{pnugues2021,
@@ -15,6 +15,14 @@ Si vous utilisez ce jeu de données, merci d'en citer l'origine avec la référe
   title = {Raccordement du {Petit Larousse illustré} de 1905 à wikidata},
   year = 2021,
   url = {https://github.com/pnugues/petit_larousse_1905}
+}
+
+@inproceedings{pnugues2022,
+  author = {Pierre Nugues},
+  title = {Connecting a French Dictionary from the Beginning of the 20th Century to Wikidata},
+  year = 2022,
+  booktitle = {Proceedings of LREC 2022},
+  address = {Marseilles}
 }
 ```
 J'ai réalisé moi-même et manuellement tous les raccordements entre les noms propres et les identifiants wikidata.
