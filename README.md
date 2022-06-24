@@ -16,12 +16,17 @@ Si vous utilisez ce jeu de données, merci d'en citer l'origine avec les référ
   url = {https://github.com/pnugues/petit_larousse_1905}
 }
 
-@inproceedings{pnugues2022,
-  author = {Pierre Nugues},
-  title = {Connecting a {F}rench Dictionary from the Beginning of the 20th Century to Wikidata},
-  year = 2022,
-  booktitle = {Proceedings of LREC 2022},
-  address = {Marseilles}
+@InProceedings{nugues:2022:LREC,
+  author    = {Nugues, Pierre},
+  title     = {Connecting a French Dictionary from the Beginning of the 20th Century to Wikidata},
+  booktitle      = {Proceedings of the Language Resources and Evaluation Conference},
+  month          = {June},
+  year           = {2022},
+  address        = {Marseille, France},
+  publisher      = {European Language Resources Association},
+  pages     = {2548--2555},
+  abstract  = {The Petit Larousse illustré is a French dictionary first published in 1905. Its division in two main parts on language and on history and geography corresponds to a major milestone in French lexicography as well as a repository of general knowledge from this period. Although the value of many entries from 1905 remains intact, some descriptions now have a dimension that is more historical than contemporary. They are nonetheless significant to analyze and understand cultural representations from this time. A comparison with more recent information or a verification of these entries would require a tedious manual work. In this paper, we describe a new lexical resource, where we connected all the dictionary entries of the history and geography part to current data sources. For this, we linked each of these entries to a wikidata identifier. Using the wikidata links, we can automate more easily the identification, comparison, and verification of historically-situated representations. We give a few examples on how to process wikidata identifiers and we carried out a small analysis of the entities described in the dictionary to outline possible applications. The resource, i.e. the annotation of 20,245 dictionary entries with wikidata links, is available from GitHub (https://github.com/pnugues/petit\_larousse\_1905/)},
+  url       = {https://aclanthology.org/2022.lrec-1.272}
 }
 ```
 J'ai réalisé moi-même et manuellement tous les raccordements entre les noms propres et les identifiants wikidata.
