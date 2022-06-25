@@ -1,5 +1,16 @@
 # Raccordement du *Petit Larousse illustré* de 1905 à wikidata
 
+## Summary in English
+_Connection of the *Petit Larousse illustré* of 1905 to wikidata_. This repository hosts a dataset connecting all the proper names of the 1905 edition of the *Petit Larousse illustré** to wikidata elements. It contains:
+* The `larousse_1905_wd.json` file which contains a list of Python dictionaries where each dictionary represents a Larousse proper name. Each Python dictionary contains the text of the Larousse article and the wikidata identifier with the text and qid keys
+* A src folder that contains:
+    * The Jupyter notebook `raccordement_larousse.ipynb` which shows how to read and use of the json file;
+    * The `larousse_1905_wd_extraction.json` file which adds information extracted from wikidata to articles;
+
+If you use this dataset, please cite the references below.
+
+## Description en français
+
 Ce dépôt héberge un jeu de données qui raccorde tous les noms propres de l'édition de 1905 du *Petit Larousse illustré* à des éléments wikidata. Il comprend :
 * Le fichier `larousse_1905_wd.json` qui contient une liste de dictionnaires Python où chaque dictionnaire représente un nom propre du *Larousse*. Chaque dictionnaire Python contient le texte de l'article du *Larousse* et l'identifiant wikidata avec les clés `texte`et `qid`, par exemple :<br/>``` {'texte': "AALI-PACHA, homme d'Etat turc, né à Constantinople. Il a attaché son nom à la politique de réformes du Tanzimat (1815-1871).",
   'qid': ['Q439237']}```
