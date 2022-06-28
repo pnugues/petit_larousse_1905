@@ -1,11 +1,14 @@
 # Raccordement du *Petit Larousse illustré* de 1905 à wikidata
 
 ## Summary in English
-_Connection of the *Petit Larousse illustré* of 1905 to wikidata_. This repository hosts a dataset connecting all the proper names of the 1905 edition of the *Petit Larousse illustré* to wikidata elements. It contains:
-* `larousse_1905_wd.json`, a list of Python dictionaries where each dictionary represents a Larousse proper name. Each Python dictionary contains the text of the Larousse article and the wikidata identifier with the text and qid keys
-* A src folder that contains:
+_Connection of the *Petit Larousse illustré* of 1905 to wikidata_. This repository hosts a dataset connecting all the proper nouns of the 1905 edition of the *Petit Larousse illustré* to wikidata elements. It contains:
+* `larousse_1905_wd.json`, a list of Python dictionaries where each dictionary represents a Larousse proper noun. Each Python dictionary contains the text of the Larousse entry and the wikidata identifier with the text and qid keys
+* A `src` folder that contains:
     * `raccordement_larousse.ipynb`, a Jupyter notebook which shows how to read and use of the json file;
     * `larousse_1905_wd_extraction.json`, a file which adds information extracted from wikidata to articles;
+* A `docs` folder that contains:
+   * The poster presented at LREC 2022
+   * Slides describing the dataset and how I created it.
 
 If you use this dataset, please cite the references below.
 
