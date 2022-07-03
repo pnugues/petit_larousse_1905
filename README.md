@@ -2,12 +2,13 @@
 
 ## Summary in English
 _Connection of the *Petit Larousse illustré* of 1905 to wikidata_. This repository hosts a dataset connecting all the proper nouns of the 1905 edition of the *Petit Larousse illustré* to wikidata elements. It contains:
-* `larousse_1905_wd.json`, a list of Python dictionaries where each dictionary represents a Larousse proper noun. Each Python dictionary contains the text of the Larousse entry and the wikidata identifier with the text and qid keys
+* `larousse_1905_wd.json`, a list of Python dictionaries where each dictionary represents a Larousse proper noun. Each Python dictionary contains the text of the Larousse entry and a list of wikidata identifiers. A dictionary has then two keys: `texte` and `qid`, for example:<br/>``` {'texte': "AALI-PACHA, homme d'Etat turc, né à Constantinople. Il a attaché son nom à la politique de réformes du Tanzimat (1815-1871).",
+  'qid': ['Q439237']}```
 * A `src` folder that contains:
     * `raccordement_larousse.ipynb`, a Jupyter notebook which shows how to read and use of the json file;
     * `larousse_1905_wd_extraction.json`, a file which adds information extracted from wikidata to articles;
 * A `docs` folder that contains:
-   * The poster presented at LREC 2022
+   * The poster presented at LREC 2022, see the reference below;
    * Slides describing the dataset and how I created it.
 
 If you use this dataset, please cite the references below.
@@ -20,6 +21,9 @@ Ce dépôt héberge un jeu de données qui raccorde tous les noms propres de l'�
 * Un dossier `src` qui contient :
   * Le notebook Jupyter `raccordement_larousse.ipynb`qui montre comment lire et tirer parti du fichier json avec des exemples très simples;
   * Le fichier `larousse_1905_wd_extraction.json` qui ajoute des informations extraites de wikidata aux articles. Le résultat est stocké dans des dictionnaires Python avec des clés supplémentaires;
+  * Un dossier `docs` qui contient :
+     * mon poster à LREC 2022. Voyez la référence plus bas ;
+     * des transparents pour une présentation orale du jeu de données.
 
 Si vous utilisez ce jeu de données, merci d'en citer l'origine avec les références suivantes :
 
