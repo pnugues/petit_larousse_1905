@@ -21,9 +21,9 @@ Ce dépôt héberge un jeu de données qui raccorde tous les noms propres de l'�
 * Un dossier `src` qui contient :
   * Le notebook Jupyter `raccordement_larousse.ipynb`qui montre comment lire et tirer parti du fichier json avec des exemples très simples;
   * Le fichier `larousse_1905_wd_extraction.json` qui ajoute des informations extraites de wikidata aux articles. Le résultat est stocké dans des dictionnaires Python avec des clés supplémentaires;
-  * Un dossier `docs` qui contient :
-     * mon poster à LREC 2022. Voyez la référence plus bas ;
-     * des transparents pour une présentation orale du jeu de données.
+* Un dossier `docs` qui contient :
+   * mon poster à LREC 2022. Voyez la référence plus bas ;
+   * des transparents pour une présentation orale du jeu de données.
 
 Si vous utilisez ce jeu de données, merci d'en citer l'origine avec les références suivantes :
 
