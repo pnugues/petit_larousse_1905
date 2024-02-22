@@ -25,7 +25,7 @@ Ce dépôt héberge un jeu de données qui raccorde tous les noms propres de l'�
    * mon poster à LREC 2022. Voyez la référence plus bas ;
    * des transparents pour une présentation orale du jeu de données.
 
-## Citations
+## Citer ce jeu de données
 Si vous utilisez ce jeu de données, merci d'en citer l'origine avec les références suivantes :
 
 ```
