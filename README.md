@@ -25,6 +25,7 @@ Ce dépôt héberge un jeu de données qui raccorde tous les noms propres de l'�
    * mon poster à LREC 2022. Voyez la référence plus bas ;
    * des transparents pour une présentation orale du jeu de données.
 
+## Citations
 Si vous utilisez ce jeu de données, merci d'en citer l'origine avec les références suivantes :
 
 ```
@@ -48,6 +49,7 @@ Si vous utilisez ce jeu de données, merci d'en citer l'origine avec les référ
   url = {https://github.com/pnugues/petit_larousse_1905}
 }
 ```
+## Remerciements
 J'ai réalisé moi-même et manuellement tous les raccordements entre les noms propres et les identifiants wikidata.
 
 Les données textuelles du *Petit Larousse illustré* proviennent du projet *Nénufar*, http://nenufar.huma-num.fr/, qui lui-même prend la suite d'un projet mené à l'université de Cergy : 
