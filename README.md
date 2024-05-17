@@ -1,7 +1,7 @@
 # Raccordement du *Petit Larousse illustré* de 1905 à wikidata
 
 ## Summary in English
-_Connection of the *Petit Larousse illustré* of 1905 to wikidata_. This repository hosts a dataset connecting all the proper nouns of the 1905 edition of the *Petit Larousse illustré* to wikidata elements. It contains:
+_Connection of the *Petit Larousse illustré* of 1905 to wikidata_. This repository hosts a dataset connecting all the proper nouns of the 1905 edition of the *Petit Larousse illustré* to wikidata items. It contains:
 * `larousse_1905_wd.json`, a list of Python dictionaries where each dictionary represents a Larousse proper noun. Each Python dictionary contains the text of the Larousse entry and a list of wikidata identifiers. A dictionary has then two keys: `texte` and `qid`, for example:<br/>``` {'texte': "AALI-PACHA, homme d'Etat turc, né à Constantinople. Il a attaché son nom à la politique de réformes du Tanzimat (1815-1871).",
   'qid': ['Q439237']}```
 * A `src` folder that contains:
@@ -25,6 +25,7 @@ Ce dépôt héberge un jeu de données qui raccorde tous les noms propres de l'�
    * mon poster à LREC 2022. Voyez la référence plus bas ;
    * des transparents pour une présentation orale du jeu de données.
 
+## Citer ce jeu de données
 Si vous utilisez ce jeu de données, merci d'en citer l'origine avec les références suivantes :
 
 ```
@@ -48,6 +49,7 @@ Si vous utilisez ce jeu de données, merci d'en citer l'origine avec les référ
   url = {https://github.com/pnugues/petit_larousse_1905}
 }
 ```
+## Remerciements
 J'ai réalisé moi-même et manuellement tous les raccordements entre les noms propres et les identifiants wikidata.
 
 Les données textuelles du *Petit Larousse illustré* proviennent du projet *Nénufar*, http://nenufar.huma-num.fr/, qui lui-même prend la suite d'un projet mené à l'université de Cergy : 
