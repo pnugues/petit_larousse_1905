@@ -2,7 +2,7 @@
 
 ## Summary in English
 _Connection of the *Petit Larousse illustré* of 1905 to wikidata_. This repository hosts a dataset connecting all the proper nouns of the 1905 edition of the *Petit Larousse illustré* to wikidata items. It contains:
-* `larousse_1905_wd.json`, a list of Python dictionaries where each dictionary represents a Larousse proper noun. Each Python dictionary contains the text of the Larousse entry and a list of wikidata identifiers. A dictionary has then two keys: `texte` and `qid`, for example:<br/>``` {'texte': "AALI-PACHA, homme d'Etat turc, né à Constantinople. Il a attaché son nom à la politique de réformes du Tanzimat (1815-1871).",
+* `larousse_1905_wd.jsonl`, a list of Python dictionaries where each dictionary represents a Larousse proper noun. Each Python dictionary contains the text of the Larousse entry and a list of wikidata identifiers. A dictionary has then two keys: `texte` and `qid`, for example:<br/>``` {'texte': "AALI-PACHA, homme d'Etat turc, né à Constantinople. Il a attaché son nom à la politique de réformes du Tanzimat (1815-1871).",
   'qid': ['Q439237']}```
 * A `src` folder that contains:
     * `raccordement_larousse.ipynb`, a Jupyter notebook which shows how to read and use of the json file;
@@ -16,7 +16,7 @@ If you use this dataset, please cite the references below.
 ## Description en français
 
 Ce dépôt héberge un jeu de données qui raccorde tous les noms propres de l'édition de 1905 du *Petit Larousse illustré* à des éléments wikidata. Il comprend :
-* Le fichier `larousse_1905_wd.json` qui contient une liste de dictionnaires Python où chaque dictionnaire représente un nom propre du *Larousse*. Chaque dictionnaire Python contient le texte de l'article du *Larousse* et l'identifiant wikidata avec les clés `texte`et `qid`, par exemple :<br/>``` {'texte': "AALI-PACHA, homme d'Etat turc, né à Constantinople. Il a attaché son nom à la politique de réformes du Tanzimat (1815-1871).",
+* Le fichier `larousse_1905_wd.jsonl` qui contient une liste de dictionnaires Python où chaque dictionnaire représente un nom propre du *Larousse*. Chaque dictionnaire Python contient le texte de l'article du *Larousse* et l'identifiant wikidata avec les clés `texte`et `qid`, par exemple :<br/>``` {'texte': "AALI-PACHA, homme d'Etat turc, né à Constantinople. Il a attaché son nom à la politique de réformes du Tanzimat (1815-1871).",
   'qid': ['Q439237']}```
 * Un dossier `src` qui contient :
   * Le notebook Jupyter `raccordement_larousse.ipynb`qui montre comment lire et tirer parti du fichier json avec des exemples très simples;
